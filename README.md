@@ -1,11 +1,12 @@
 # WordUnscramblerJava
 
 Hey, so basically, you run this program, type in a scrambled set of letters and then get the longest possible word that can be made out 
-of that set of letters. You probably will get a really funky word, because the dictionary I downloaded has a but load of words in there 95%
-of I don't recongnize, like ataractic. Look it up its a real word. BTW if you are trying to find where I got the dictionary here 
+of that set of letters. You probably will get a really funky word, because the dictionary I downloaded has a but load of words in there 95% of I don't recongnize, like ataractic. Look it up its a real word. BTW if you are trying to find where I got the dictionary here 
 is the github link.
 
 https://github.com/dwyl/english-words
+
+If you find anything incorrect with this program, or that it does not run please let me know.
 
 SIGH.
 
@@ -16,3 +17,5 @@ stupidity. I heard about a trie node and what it was and really wanted to make o
 trienode was the best way to make this program. So yeah lol. I was gonna turn this in for a school project but now, this assignment
 doesn't even meet all the requirements. Its kinda funny cause I am actually disappointed I figured out how to do this assignment in 
 an easier fashion. On the bright side I have an entire Trienode structure written written out in java in case I ever need it haha.
+
+Thank you!
