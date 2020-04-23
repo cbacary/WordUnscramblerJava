@@ -9,6 +9,7 @@ public class Unscrambler
         Scanner scanner = new Scanner(f);
         Scanner inputScanner = new Scanner(System.in);
 
+        System.out.print("Input the scrambled letters: ");
         String characters = inputScanner.nextLine();
 
         String winningString = "";
@@ -24,11 +25,14 @@ public class Unscrambler
                 length = tempWord.length();
             }
         }
-        System.out.println(winningString);
+        System.out.println("Longest Word: " + winningString);
+        System.out.println("Press enter to exit");
+        inputScanner.nextLine();
     }
 
     public static boolean contains(String word, String characters)
     {
+        
         for (char i: word.toCharArray())
         {
             if (characters.indexOf(i) != -1)
@@ -41,7 +45,10 @@ public class Unscrambler
         return true;
     }
 
-    public static String charRemoveAt(String str, int p) {  
+    // I got this charRemoveAt function from a website here is the link
+    // https://www.javatpoint.com/how-to-remove-a-particular-character-from-a-string
+    public static String charRemoveAt(String str, int p) 
+    {  
         return str.substring(0, p) + str.substring(p + 1);  
-     }  
+    }  
 }
