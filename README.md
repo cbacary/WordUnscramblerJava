@@ -6,6 +6,8 @@ is the github link.
 
 https://github.com/dwyl/english-words
 
+For example: if you were to enter in a 4 letter set of scrambled letters like "dgoo" the longest word that can be returned is a 4 letter word.
+
 If you find anything incorrect with this program, or that it does not run please let me know.
 
 SIGH.
